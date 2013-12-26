@@ -1,0 +1,16 @@
+!!!
+html
+	head
+		title= "Real time web chat"
+		script(src='/chat1.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+	body
+		
+		.controls
+
+			| From: 
+			input#name(style='width:350px;')
+			br
+			input#senduserName(type='button', value='send')
+			
