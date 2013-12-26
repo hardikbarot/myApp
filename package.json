@@ -1,0 +1,11 @@
+{
+	"name": "P2PChat",
+	"version": "0.0.0",
+	"description": "P2PChat",
+	"dependencies": {
+		"socket.io": "latest",
+		"express": "latest",
+		"jade": "latest"
+	},
+	"author": "hardik"
+}
